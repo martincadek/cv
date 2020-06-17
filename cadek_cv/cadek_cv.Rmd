@@ -1,0 +1,105 @@
+---
+name: Martin
+surname: Čadek
+position: ""
+address: ""
+phone: +44 07715 208734
+www: martincadek.com
+email: "cadekmail@gmail.com"
+twitter: m_cadek
+github: ""
+linkedin: martincadek
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 005999
+aboutme: "I am skilled in R programming language (e.g.: ggplot2, shiny, tidyverse, tidymodels) and have been using R passionately for 4+ years (this resume was developed in R). I have expertise in statistical modelling, survey development, and applied research. Academically, I focus on topics concerning health communication."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae) # https://pkg.mitchelloharawild.com/vitae/
+library(tibble)
+library(dplyr)
+# library(scholar)
+# library(rorcid)
+# https://github.com/tallguyjenks/CV (inspired by)
+# http://chrisumphlett.com/posts/vitae-package/ (inspired by)
+```
+
+# Skills
+
+## Data Science
+* Exploratory data analysis, machine learning and regression analysis {caret, tidymodels, car}, data wrangling {tidyverse}, dashboard development {shiny}, data visualization {ggplot2, plotly}, classification {tidymodels}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {markdown, renv, virtual environments}
+
+## Applications
+* RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics, Affinity Software Suite
+
+## Languages
+* R {ggplot2, plotly, Shiny, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, Markdown {R}, Latex, CSS
+
+# Experience
+```{r}
+tribble(
+  ~ role, ~ company, ~ location, ~ dates, ~ details,
+  # Part 1
+  "Shiny R Developer", "Assessment Systems International a.s.", "Remote", "2018 - 2019", 
+"As part of contract work, I have developed a user interface in R Shiny for Assessment Systems International a.s. to select features and machine learning algorithms to assess candidates based on their performance across a variety of psychometric results from the assessment centre. The project was managed using git version control (GitLab) and development steps were agreed remotely and utilised as a part of agile production. Once the proof of concept was realised, I started the work on the application.",
+  # Part 2
+    "Shiny R Developer", "Assessment Systems International a.s.", "Remote", "2018 - 2019", 
+"The application used caret package as a back-end and supported multiple classifications and regression algorithms: Regularized Generalized Linear Models (glmnet), Tree-Based Models (rpart), Support Vector Machines (svmRadial), Random Forest (rf), Neural Networks (nnet), and K-Nearest Neighbour (knn). The user also had an option to select multiple models and create Ensemble models using caretEnsemble package. The application was using multiple tabs that were presented as the following steps: Step 1 - Input Data, Step 2 - Feature Selection, Step 3 - Training on Learn dataset, Step 4 - Validating on the Test dataset, and Step 5 - Applying model. The resulting application allowed interactive navigation through the process of building an ML model with a possibility to save the resulting model and re-use it as needed.",
+
+  "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
+"My research looked into improving the routine feedback letters with height and weight results delivered to all parents with Reception and Year 6 children as part of the National Child Measurement Programme (the NCMP) in England. My project engaged multiple stakeholders such as Local Government Associations (LGA), Public Health England (PHE), and parents, and provided nuanced insights into the NCMP. I have developed three studies using qualitative and quantitative methods.",
+    "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
+"I have prepared cluster randomised controlled trial and stratification procedure with reliance on clustering utilising k-means. I have used computerised text analyses techniques such as sentiment analysis, topic modelling, hierarchical clustering, and gained experience with Google Natural Language Processing speech-to-text API. I conducted interviews, content analyses, literature and evidence reviews, and contributed to the writing of reports and journal articles.",
+
+  "Marketing Analyst", "Influencer.cz", "Prague, Czechia", "2013 - 2017", 
+"As a marketing researcher executive at Kii (http://influencer.cz/), I was primarily responsible for the management of social media pages, content creation, and copywriting for several high profile customers from the insurance, car manufacturing, and energy industries. Part of my daily job was also the development of a social media marketing strategy for smaller-scale clients. This involved analysis of their current marketing strategy, content, and customer segmentation.",
+  "Marketing Analyst", "Influencer.cz", "Prague, Czechia", "2013 - 2017", 
+"Where appropriate, I have analysed their customer data using R and developed descriptive reports to propose a suitable strategy. I have obtained further data from their social media sites using Twitter and Facebook APIs. The reports were created using descriptive statistics, visualisation packages such as ggplot2, network graphs, and latent class modelling for customer segmentation.",
+
+    "Research assistant", "University of Cambridge", "Cambridge, England", "2015 - 2016", "During my research internship under the supervision of Dr Kai Ruggeri of the Department of Psychology at the University of Cambridge, I have joined the university as part of the Policy Research Group (https://www.psychol.cam.ac.uk/pol-res-group). I have been contributing to projects on the translation of psychological research into policy, extracting legal data on business cases in organizational psychology research, data analysing, developing visualization and infographics.",
+    "Research assistant", "University of Cambridge", "Cambridge, England", "2015 - 2016", "Specifically, I have contributed to the Safer Care Pathways in Mental Health Services project (https://www.psychol.cam.ac.uk/pol-res-group/projects). The project addressed patient safety hazards within a range of care pathways across five project sites and aimed to present evidence that informs best practice for avoiding major incidents while improving the mental health of highly vulnerable individuals. The project was supported by The Health Foundation and hosted by the Cambridge EDC.",
+
+  "Junior Data Analyst", "Junior Research Programme", "Europe", "2014 - 2015",
+"I have joined a team of early-career researchers (https://jrp.pscholars.org) in position of Junior Data Analyst and collaboratively developed a project focusing on Obesity discrimination in the Workplace supervised by Dr Stuart Flint. Our project was disseminated as a journal article at https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00647/full and got featured in several newspaper and media outlets."
+ ) %>% 
+  detailed_entries(role, dates, company, location, details)
+```
+
+# Courses
+```{r}
+tribble(
+  ~ category, ~ organisation, ~ location, ~ dates, ~ description,
+ "Online courses", "DataCamp", "https://www.datacamp.com", "2018 - ongoing",
+"Introduction to SQL, Python for R Users, Foundations of Inference, Inference for Linear Regression in R, Inference for Numerical Data in R, Inference for Categorical Data in R, Case Study: Exploratory Data Analysis in R, Cleaning Data in R, Structural Equation Modeling with lavaan in R, Factor Analysis in R, Machine Learning with caret in R, Introduction to Machine Learning, Multiple and Logistic Regression in R, Introduction to Importing Data in R, Correlation and Regression in R, Introduction to Data in R, Reporting with R Markdown, Exploratory Data Analysis in R, Data Visualization with ggplot2 (Part 1), Data Visualization in R, Joining Data in R with dplyr, Data Manipulation in R with dplyr, Importing & Cleaning Data in R: Case Studies, Intermediate Importing Data in R, Intermediate R: Practice, Intermediate R, Introduction to R",
+
+"Course", "University of Leeds", "Leeds, England", "2018", "Summer School of Causal inference with observational data: the challenges and pitfalls (5 days course). This five-day summer school offered state-of-the-art training in the analysis of observational data for causal inference. By exploring the philosophy and utility of directed acyclic graphs (DAGs) participants learn to recognise and avoid a range of common pitfalls in the analysis of complex causal relationships, including the longitudinal analyses of change, mediation, nonlinearity and statistical interaction.",
+
+"MOOC", "Agrocampus Ouest", "https://www.fun-mooc.fr", "2017", "Exploratory Multivariate Data Analysis (MOOC) by François Husson, Professor of statistics. The course focused on four essential and basic methods: principal component analysis (PCA) to handle quantitative variables, correspondence analysis (CA) and multiple correspondence analysis (MCA) to handle categorical variables and clustering, and an extension to Multiple Factor Analysis (MFA) to analyse a more complex dataset that is structured by groups.",
+
+"Course", "University of Cambridge", "Cambridge, England", "2016", "Certified IRT and CAT course using Concerto at Psychometric Centre (3 days course). This course focused on producing online state-of-the-art psychometric tests, as well as an introduction to the Item Response Theory (IRT), Computer Adaptive Testing (CAT), and the open-source online adaptive test development platform, Concerto."
+) %>% 
+  detailed_entries(category, dates, organisation, location, description)
+```
+
+# Community
+```{r}
+tribble(
+  ~ role, ~ activity, ~ location, ~ dates, ~ details,
+  "Co-organiser", "Leeds R Meetups", "Leeds, England", "2017 - Present", "Co-organising Leeds R Meetups for colleagues. As an R enthusiast, I have been involved in organising R Meetups (initially at Leeds Beckett University, later in general area of Leeds) in Leeds.",
+  "Lecturer", "Qualtrics workshops", "Leeds", "2018", "Delivering series of free workshops about survey development for research staff at Leeds Beckett University."
+ ) %>% 
+  detailed_entries(role, dates, activity, location, details)
+```
+
+# Education
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, #~ details,
+  "PhD degree, Public Health", "Leeds Beckett University",  "Leeds, England", "2017 - ongoing",
+  "Master's degree, Psychology", "Charles University",  "Prague, Czechia", "2010 - 2012",
+  "Bachelor's degree, Psychology", "Charles University",  "Prague, Czechia", "2010 - 2012"
+) %>% 
+  detailed_entries(degree, dates, uni, loc) # , details
+```
