@@ -20,6 +20,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae) # https://pkg.mitchelloharawild.com/vitae/
 library(tibble)
 library(dplyr)
+library(tinytex)
 # library(scholar)
 # library(rorcid)
 # https://github.com/tallguyjenks/CV (inspired by)
@@ -51,15 +52,15 @@ tribble(
   "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
 "My research looked into improving the routine feedback letters with height and weight results delivered to all parents with Reception and Year 6 children as part of the National Child Measurement Programme (the NCMP) in England. My project engaged multiple stakeholders such as Local Government Associations (LGA), Public Health England (PHE), and parents, and provided nuanced insights into the NCMP. I have developed three studies using qualitative and quantitative methods.",
     "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
-"I have prepared cluster randomised controlled trial and stratification procedure with reliance on clustering utilising k-means. I have used computerised text analyses techniques such as sentiment analysis, topic modelling, hierarchical clustering, and gained experience with Google Natural Language Processing speech-to-text API. I conducted interviews, content analyses, literature and evidence reviews, and contributed to the writing of reports and journal articles.",
+"I have prepared cluster randomised controlled trial and stratification procedure with reliance on clustering utilising k-means. I have used computerised text analyses techniques such as sentiment analysis, topic modelling (LDA), hierarchical clustering, and gained experience with Google Natural Language Processing speech-to-text API. I conducted interviews, content analyses, literature and evidence reviews, and contributed to the writing of reports and journal articles.",
 
   "Marketing Analyst", "Influencer.cz", "Prague, Czechia", "2013 - 2017", 
 "As a marketing researcher executive at Kii (http://influencer.cz/), I was primarily responsible for the management of social media pages, content creation, and copywriting for several high profile customers from the insurance, car manufacturing, and energy industries. Part of my daily job was also the development of a social media marketing strategy for smaller-scale clients. This involved analysis of their current marketing strategy, content, and customer segmentation.",
   "Marketing Analyst", "Influencer.cz", "Prague, Czechia", "2013 - 2017", 
 "Where appropriate, I have analysed their customer data using R and developed descriptive reports to propose a suitable strategy. I have obtained further data from their social media sites using Twitter and Facebook APIs. The reports were created using descriptive statistics, visualisation packages such as ggplot2, network graphs, and latent class modelling for customer segmentation.",
 
-    "Research assistant", "University of Cambridge", "Cambridge, England", "2015 - 2016", "During my research internship under the supervision of Dr Kai Ruggeri of the Department of Psychology at the University of Cambridge, I have joined the university as part of the Policy Research Group (https://www.psychol.cam.ac.uk/pol-res-group). I have been contributing to projects on the translation of psychological research into policy, extracting legal data on business cases in organizational psychology research, data analysing, developing visualization and infographics.",
-    "Research assistant", "University of Cambridge", "Cambridge, England", "2015 - 2016", "Specifically, I have contributed to the Safer Care Pathways in Mental Health Services project (https://www.psychol.cam.ac.uk/pol-res-group/projects). The project addressed patient safety hazards within a range of care pathways across five project sites and aimed to present evidence that informs best practice for avoiding major incidents while improving the mental health of highly vulnerable individuals. The project was supported by The Health Foundation and hosted by the Cambridge EDC.",
+    "Visiting researcher", "University of Cambridge", "Cambridge, England", "2015 - 2016", "As a visiting researcher under the supervision of Dr Kai Ruggeri of the Department of Psychology at the University of Cambridge, I have joined the university as part of the Policy Research Group (https://www.psychol.cam.ac.uk/pol-res-group). I have been contributing to projects on the translation of psychological research into policy, extracting legal data on business cases in organizational psychology research, data analysing, developing visualization and infographics.",
+    "Visiting researcher", "University of Cambridge", "Cambridge, England", "2015 - 2016", "Specifically, I have contributed to the Safer Care Pathways in Mental Health Services project (https://www.psychol.cam.ac.uk/pol-res-group/projects). The project addressed patient safety hazards within a range of care pathways across five project sites and aimed to present evidence that informs best practice for avoiding major incidents while improving the mental health of highly vulnerable individuals. The project was supported by The Health Foundation and hosted by the Cambridge EDC.",
 
   "Junior Data Analyst", "Junior Research Programme", "Europe", "2014 - 2015",
 "I have joined a team of early-career researchers (https://jrp.pscholars.org) in position of Junior Data Analyst and collaboratively developed a project focusing on Obesity discrimination in the Workplace supervised by Dr Stuart Flint. Our project was disseminated as a journal article at https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00647/full and got featured in several newspaper and media outlets."
@@ -98,8 +99,8 @@ tribble(
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, #~ details,
   "PhD degree, Public Health", "Leeds Beckett University",  "Leeds, England", "2017 - ongoing",
-  "Master's degree, Psychology", "Charles University",  "Prague, Czechia", "2010 - 2012",
-  "Bachelor's degree, Psychology", "Charles University",  "Prague, Czechia", "2010 - 2012"
+  "Master's degree, Psychology", "Charles University",  "Prague, Czechia", "2013 – 2016",
+  "Bachelor's degree, Psychology", "Charles University",  "Prague, Czechia", "2010 – 2013"
 ) %>% 
   detailed_entries(degree, dates, uni, loc) # , details
 ```
