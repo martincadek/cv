@@ -1,0 +1,57 @@
+Shiny R Developer, Assessment Systems International a.s., Remote, 2018 - 2019,
+• I worked under contract to develop an R application with a Shiny front‑end for machine‑learning‑driven assessment of candidates based on
+psychometric data, and I,
+— created a proof-of-concept that was accepted for further development
+— wrote the client-side components
+— designed and implemented a web UI in Shiny that enabled interactive navigation through the ML‑model‑building process and enabled the user to save and reuse the resulting model
+— coordinated project management remotely with the client using agile methodology
+• The application drew on R packages to provide feature selection methods, classification and regression algorithms, and ensemble models, specifically elastic net models (glmnet), tree‑based models (rpart), support vector machines (svmRadial), random forest (rf), neural networks (nnet),and k‑nearest neighbour (knn)
+• The application enabled the client to engage consultants with no programming experience and increased the effectiveness of the assessment process
+
+
+Marketing Analyst, Influencer.cz, Prague, Czechia, 2013 - 2017,
+• As a marketing researcher executive, I was primarily responsible for the management of social media pages, content creation, and copywriting
+• My clients were OZP (the third largest insurance provider in Czechia), BMW Mini (car manufacturer), and Centropol (energy and gas supplier),
+for these clients I,
+— prepared engaging content for their pages which led to an increase in sales and engagement of the page visitors
+— developed a transparent marketing strategy and content plans that are still used by the clients
+— provided long-term content plans that engaged their customers and facilitated sales
+• Some other clients I have worked with were Lexus (car manufacturer), NKC (a non-profit organisation for the representation of woman in STEM),
+for them I,
+— provided an analysis of their marketing strategy and content
+— conducted customer segmentation using R and latent class modelling
+— developed descriptive reports using ggplot2and R Markdown proposing a suitable marketing strategy
+
+PhD Scholar, Leeds Beckett University, Leeds, England, "2017 - ongoing,
+• My research looked into improving the routine feedback letters with height and weight results delivered to all parents with Reception and Year 6 children as part of the National Child Measurement Programme (the NCMP) in England
+• The project engaged multiple stakeholders such as Local Government, Public Health England, and parents, and provided nuanced insights into the NCMP, throughout the project I,
+— developed three complex studies using qualitative and quantitative methods
+— gathered opinions of 92 Local Government Authorities in England about how they use the NCMP and provided the results to the Public Health England as evidence for further improvement
+— prepared cluster randomised controlled trial and stratification procedure with reliance on clustering utilising k‑means
+— developed a new version of the feedback letters which resulted in improvement of parental perceptions about the letters
+— used computerised text analyses techniques on a vast corpus of text data. For example, sentiment analysis, topic modelling (LDA), hierarchical clustering
+— used Google Natural Language Processing speech-to-text API to automatically transcribe all the interviews
+• I became experienced with content analysis, literature and evidence reviews, and contributed to the writing of reports and journal articles
+• I presented my findings at,
+— UKCO, Newcastle upon Tyne, England United Kingdom, September 2019
+— Public Health England Annual Conference 2018, University of Warwick, UK
+— Weight Stigma Conference, Leeds, UK, June 2018
+— UKCO, Newcastle upon Tyne,England United Kingdom, June 2018
+
+
+Visiting researcher, University of Cambridge, Cambridge, England, 2015 - 2016,
+• I joined the Policy Research Group at the University of Cambridge as a visiting researcher under the supervision of Dr Kai Ruggeri. As a member of the group I,
+— developed infographics, reports, and presentations for the Safer Care Pathways in Mental Health Services project supported by The Health Foundation (https://cli.re/rwmbWR)
+— assisted with data collection and development of a database containing Issue-Based Industry Collectives in the alcohol industry and their characteristics for Dr Jochem Kroezen (https://cli.re/Zejkxx)
+— helped to design the Health@Work (H@W) questionnaire for an organisational setting that aimed to match employees' views on health and wellbeing to those of employers'
+— assisted with data collection of Pro Bono activities of U.S. Law firms for Dr Lionel Paolella
+— attended policy lectures and MBA courses in microeconomics
+
+
+Junior Data Analyst, Junior Research Programme, Europe, 2014 - 2015,
+• I have joined a team of early-career researchers in the position of Junior Data Analyst and collaboratively developed a project focusing on Obesity discrimination in the Workplace supervised by Dr Stuart Flint
+• The project was disseminated as a journal article (https://cli.re/JpW7k5)
+• Our work was featured in the following media
+— https://cli.re/Qm54PB
+— https://cli.re/mqrM2P
+— https://cli.re/b1x17e

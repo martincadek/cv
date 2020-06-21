@@ -44,7 +44,7 @@ experience <- tribble(
      "--- developed a new version of the feedback letters which resulted in improvement of parental perceptions about the letters",
     
      "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
-     "--- used computerised text analyses techniques on a vast corpus of text data. For example, sentiment analysis, topic modelling (LDA), hierarchical clustering",
+     "--- used computerised text analysis techniques on a vast corpus of text data. For example, sentiment analysis, topic modelling (LDA), hierarchical clustering",
      
      "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
      "--- used Google Natural Language Processing speech-to-text API to automatically transcribe all the interviews",
