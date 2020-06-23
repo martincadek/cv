@@ -11,7 +11,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 005999
-aboutme: "I am skilled in R programming language (e.g.: ggplot2, shiny, tidyverse, tidymodels) and have been using R for 4+ years (this resume was developed in R). I have expertise in statistical modelling, survey development, and applied research. My career objectives are to continue acquiring further proficiency in R, Python, and SQL with a focus on machine learning applications and ambition to become a full-stack developer."
+aboutme: "I am skilled in R programming language (e.g., ggplot2, shiny, tidy-universe) and have been using R for 4+ years (this resume was developed in R & latex). My expertise is in statistical modelling, survey development, and applied research. My career objectives are to acquire further proficiency in R, Python, and SQL, focus on machine learning applications and full-stack development."
 output: vitae::awesomecv
 ---
 
@@ -40,12 +40,14 @@ source(file = here("data/education.R")) # R file with education section
 * RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics, Affinity Software Suite
 
 ## Languages
-* R {ggplot2, plotly, Shiny, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, Markdown {R}, Latex, CSS
+* R {ggplot2, plotly, Shiny, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, Markdown {R}, latex, CSS
 
 # Experience
 ```{r experience}
+# The .protect = FALSE allows latex to be implemented;
+# Not used in other parts
 experience %>% 
-     detailed_entries(role, dates, company, location, details)
+     detailed_entries(role, dates, company, location, details, .protect = FALSE)
 ```
 
 # Courses
