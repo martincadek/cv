@@ -11,7 +11,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 005999
-aboutme: "I am skilled in R programming language (e.g., ggplot2, shiny, tidy-universe) and have been using R for 4+ years (this resume was developed in R & latex). My expertise is in statistical modelling, survey development, and applied research. My career objectives are to acquire further proficiency in R, Python, and SQL, focus on machine learning applications and full-stack development."
+aboutme: "I am goal-oriented and ambitious statistics specialist and a skilled R user with a background in quantitative social psychology. I have an excellent working knowledge of regression modelling, clustering techniques, survey development, psychometrics, and applied research with health data."
 output: vitae::awesomecv
 ---
 
@@ -34,10 +34,10 @@ source(file = here("data/education.R")) # R file with education section
 # Skills
 
 ## Data Science
-* Exploratory data analysis, machine learning and regression analysis {caret, tidymodels, car}, data wrangling {tidyverse}, dashboard development {shiny}, data visualization {ggplot2, plotly}, classification {tidymodels}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {markdown, renv, virtual environments}
+* Exploratory data analysis, machine learning and regression analysis {caret, tidymodels, car, lme4}, data wrangling {tidyverse}, dashboard development {shiny}, data visualization {ggplot2, plotly}, classification {tidymodels}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {markdown, renv, virtual environments}
 
 ## Applications
-* RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics, Affinity Software Suite
+* RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics
 
 ## Languages
 * R {ggplot2, plotly, Shiny, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, Markdown {R}, latex, CSS
