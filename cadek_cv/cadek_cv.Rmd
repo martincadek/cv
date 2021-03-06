@@ -11,7 +11,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 005999
-aboutme: "I am goal-oriented and ambitious statistics specialist and a skilled R user with a background in quantitative social psychology. I have an excellent working knowledge of regression modelling, clustering techniques, survey development, psychometrics, and applied research with health data."
+aboutme: "I am a goal-oriented and ambitious statistics specialist and a skilled R user with a quantitative social psychology background. I have an excellent working knowledge of regression modelling, clustering techniques, survey development, psychometrics, and applied research with health data."
 output: vitae::awesomecv
 ---
 
@@ -34,15 +34,19 @@ source(file = here("data/education.R")) # R file with education section
 # Skills
 
 ## Data Science
-* Exploratory data analysis, machine learning and regression analysis {caret, tidymodels, car, lme4}, data wrangling {tidyverse}, dashboard development {shiny}, data visualization {ggplot2, plotly}, classification {tidymodels}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {markdown, renv, virtual environments}
+
+-   Exploratory data analysis, machine learning and regression analysis {caret, tidymodels, car, lme4}, data wrangling {tidyverse, data.table}, dashboard development {shiny}, data visualization {ggplot2, plotly}, classification {tidymodels}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {rmarkdown, renv, virtual environments}
 
 ## Applications
-* RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics
+
+-   RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics
 
 ## Languages
-* R {ggplot2, plotly, Shiny, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, Markdown {R}, latex, CSS
+
+-   R {ggplot2, Shiny, data.table, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, RMarkdown, latex, CSS
 
 # Experience
+
 ```{r experience}
 # The .protect = FALSE allows latex to be implemented;
 # Not used in other parts
@@ -51,18 +55,21 @@ experience %>%
 ```
 
 # Courses
+
 ```{r courses}
 courses %>% 
   detailed_entries(organisation, dates, category, location, description)
 ```
 
 # Community
+
 ```{r community}
 community %>%
   detailed_entries(role, dates, activity, location, details)
 ```
 
 # Education
+
 ```{r education}
 education %>% 
   detailed_entries(degree, dates, uni, loc) # , details

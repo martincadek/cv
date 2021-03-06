@@ -1,3 +1,16 @@
+Statistician, Department of Health and Social Care, London, England, 2020 ‑ ongoing
+• I worked as an HEO Statistician in the DHSC Social Care Analyst team since September 2020
+• I was responsible for delivering situational reports, delivering statistical analyses at pace, and provided analytical support for briefings delivered
+in collaboration with policy colleagues. I contributed to the quality assurance of analyses across the team and promoted high data analysis
+standards and coding using the R programming language
+• Examples of my work:
+– automated reporting in R for flu immunisation status of residents and staff at care homes in England
+– reproducible analytical pipeline (RAP) to draw and access Care Home data from a JSON feed
+– RAP to extract and process data from the Office for National Statistics (the ONS)
+– advanced visualisations regarding numerous ad‑hoc request across topics such as flu immunisation, survey response rates, or covid
+incidence
+– quality assurance of reports, statistical analyses, and figures
+
 Shiny R Developer, Assessment Systems International a.s., Remote, 2018 - 2019,
 • I worked under contract to develop an R application with a Shiny front‑end for machine‑learning‑driven assessment of candidates based on
 psychometric data, and I,
@@ -7,7 +20,6 @@ psychometric data, and I,
 — coordinated project management remotely with the client using agile methodology
 • The application drew on R packages to provide feature selection methods, classification and regression algorithms, and ensemble models, specifically elastic net models (glmnet), tree‑based models (rpart), support vector machines (svmRadial), random forest (rf), neural networks (nnet),and k‑nearest neighbour (knn)
 • The application enabled the client to engage consultants with no programming experience and increased the effectiveness of the assessment process
-
 
 Marketing Analyst, Influencer.cz, Prague, Czechia, 2013 - 2017,
 • As a marketing researcher executive, I was primarily responsible for the management of social media pages, content creation, and copywriting
@@ -38,7 +50,6 @@ PhD Scholar, Leeds Beckett University, Leeds, England, "2017 - ongoing,
 — Weight Stigma Conference, Leeds, UK, June 2018
 — UKCO, Newcastle upon Tyne,England United Kingdom, June 2018
 
-
 Visiting researcher, University of Cambridge, Cambridge, England, 2015 - 2016,
 • I joined the Policy Research Group at the University of Cambridge as a visiting researcher under the supervision of Dr Kai Ruggeri. As a member of the group I,
 — developed infographics, reports, and presentations for the Safer Care Pathways in Mental Health Services project supported by The Health Foundation (https://cli.re/rwmbWR)
@@ -46,7 +57,6 @@ Visiting researcher, University of Cambridge, Cambridge, England, 2015 - 2016,
 — helped to design the Health@Work (H@W) questionnaire for an organisational setting that aimed to match employees' views on health and wellbeing to those of employers'
 — assisted with data collection of Pro Bono activities of U.S. Law firms for Dr Lionel Paolella
 — attended policy lectures and MBA courses in microeconomics
-
 
 Junior Data Analyst, Junior Research Programme, Europe, 2014 - 2015,
 • I have joined a team of early-career researchers in the position of Junior Data Analyst and collaboratively developed a project focusing on Obesity discrimination in the Workplace supervised by Dr Stuart Flint

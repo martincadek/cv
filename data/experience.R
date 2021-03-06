@@ -1,12 +1,26 @@
 # Experience --------------------------------------------------------------
 experience <- tribble(
-     ~ role, ~ company, ~ location, ~ dates, ~ details,
-     # Assessment Systems
-     # Latex itemize https://stackoverflow.com/questions/62514270/modifying-cv-generated-by-vitae-package-r (question I have asked)
-     # https://www.latex-tutorial.com/tutorials/lists/
-     "Shiny R Developer", "Assessment Systems International a.s.", "Remote", "2018 - 2019", 
+        ~ role, ~ company, ~ location, ~ dates, ~ details,
+        # Latex itemize https://stackoverflow.com/questions/62514270/modifying-cv-generated-by-vitae-package-r (question I have asked)
+        # https://www.latex-tutorial.com/tutorials/lists/
+
+     # DHSC
+     "Statistician", "Department of Health and Social Care", "London, England", "2020 - ongoing", 
      # The first \\item seems assumed
      # Then it needs to be reintroduced
+     "I worked as an HEO Statistician in the DHSC Social Care Analyst team since September 2020
+     \\item I was responsible for delivering situational reports, delivering statistical analyses at pace, and provided analytical support for briefings delivered in collaboration with policy colleagues. I contributed to the quality assurance of analyses across the team and promoted high data analysis standards and coding using the R programming language
+     \\item Examples of my work:
+     \\begin{itemize}
+     \\item automated reporting in R for flu immunisation status of residents and staff at care homes in England
+     \\item reproducible analytical pipeline (RAP) to draw and access Care Home data from a JSON feed
+     \\item RAP to extract and process data from the Office for National Statistics (the ONS)
+     \\item advanced visualisations regarding numerous ad-hoc request across topics such as flu immunisation, survey response rates, or covid incidence
+     \\item quality assurance of reports, statistical analyses, and figures
+     \\end{itemize}",
+     
+     # Assessment Systems
+     "Shiny R Developer", "Assessment Systems International a.s.", "Remote", "2018 - 2019", 
      "I worked under contract to develop an R application with a Shiny front-end for machine-learning-driven assessment of candidates based on psychometric data, and I,
      \\begin{itemize}
      \\item created a proof-of-concept that was accepted for further development
@@ -18,7 +32,7 @@ experience <- tribble(
      \\item The application enabled the client to engage consultants with no programming experience and increased the effectiveness of the assessment process",
 
      # PhD
-     "PhD Scholar", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
+     "PhD candidate", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
      "My research looked into improving the routine feedback letters with height and weight results delivered to all parents with Reception and Year 6 children as part of the National Child Measurement Programme (the NCMP) in England
      \\item The project engaged multiple stakeholders such as Local Government, Public Health England, and parents, and provided nuanced insights into the NCMP, throughout the project I,
      \\begin{itemize}
