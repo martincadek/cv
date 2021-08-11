@@ -3,7 +3,7 @@ name: Martin
 surname: Čadek
 position: ""
 address: ""
-phone: +44 07715 208734
+phone: +44 07715 208 734
 www: martincadek.com
 email: "cadekmail@gmail.com"
 twitter: m_cadek
@@ -11,7 +11,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 005999
-aboutme: "I am a goal-oriented and ambitious statistics specialist and a skilled R user with a quantitative social psychology background. I have an excellent working knowledge of regression modelling, clustering techniques, survey development, psychometrics, and applied research with health data."
+aboutme: "I am a goal-oriented and ambitious statistics specialist and a skilled R user with a quantitative social psychology background. I have an excellent working knowledge of regression modelling, clustering techniques, survey development, and applied research with health data."
 output: vitae::awesomecv
 ---
 

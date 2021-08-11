@@ -1,7 +1,7 @@
 # Education ---------------------------------------------------------------
 education <- tribble(
      ~ degree, ~ uni, ~ loc, ~ dates, #~ details,
-     "PhD degree, Public Health", "Leeds Beckett University",  "Leeds, England", "2017 - ongoing",
+     "PhD degree, Public Health", "Leeds Beckett University",  "Leeds, England", "2017 - 2021",
      
      "Master's degree, Psychology", "Charles University",  "Prague, Czechia", "2013 - 2016",
      

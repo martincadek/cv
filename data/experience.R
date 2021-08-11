@@ -8,7 +8,7 @@ experience <- tribble(
      "Statistician", "Department of Health and Social Care", "London, England", "2020 - ongoing", 
      # The first \\item seems assumed
      # Then it needs to be reintroduced
-     "I worked as an HEO Statistician in the DHSC Social Care Analyst team since September 2020
+     "I am a Statistician in the DHSC Social Care Analyst team since September 2020
      \\item I was responsible for delivering situational reports, delivering statistical analyses at pace, and provided analytical support for briefings delivered in collaboration with policy colleagues. I contributed to the quality assurance of analyses across the team and promoted high data analysis standards and coding using the R programming language
      \\item Examples of my work:
      \\begin{itemize}
@@ -32,7 +32,7 @@ experience <- tribble(
      \\item The application enabled the client to engage consultants with no programming experience and increased the effectiveness of the assessment process",
 
      # PhD
-     "PhD candidate", "Leeds Beckett University", "Leeds, England", "2017 - ongoing",
+     "PhD", "Leeds Beckett University", "Leeds, England", "2017 - 2021",
      "My research looked into improving the routine feedback letters with height and weight results delivered to all parents with Reception and Year 6 children as part of the National Child Measurement Programme (the NCMP) in England
      \\item The project engaged multiple stakeholders such as Local Government, Public Health England, and parents, and provided nuanced insights into the NCMP, throughout the project I,
      \\begin{itemize}
