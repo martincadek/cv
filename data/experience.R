@@ -4,12 +4,24 @@ experience <- tribble(
         # Latex itemize https://stackoverflow.com/questions/62514270/modifying-cv-generated-by-vitae-package-r (question I have asked)
         # https://www.latex-tutorial.com/tutorials/lists/
 
-     # DHSC
-     "Statistician", "Department of Health and Social Care", "London, England", "2020 - ongoing", 
+     # Kantar
+     "Data Scientist", "Kantar", "London, England", "2021 - ongoing", 
      # The first \\item seems assumed
      # Then it needs to be reintroduced
-     "I am a Statistician in the DHSC Social Care Analyst team since September 2020
-     \\item I was responsible for delivering situational reports, delivering statistical analyses at pace, and provided analytical support for briefings delivered in collaboration with policy colleagues. I contributed to the quality assurance of analyses across the team and promoted high data analysis standards and coding using the R programming language
+     "Working as part of the Expert Solutions team with clients in the FMCG sector.
+     \\begin{itemize}
+     \\item learning and developing further as a data scientist, gaining industry experience, getting excited about new challenges
+     \\item working with structured, untidy, and large data
+     \\item developing bespoke solutions for clients, such as market structures through the use of hierarchical clustering algorithms
+     \\item using other tools such as Git, AzureDevOps, SQL
+     \\end{itemize}",
+     
+     # DHSC
+     "Statistician", "Department of Health and Social Care", "London, England", "2020 - 2021", 
+     # The first \\item seems assumed
+     # Then it needs to be reintroduced; does not like &
+     "I was working as an Statistician in the DHSC Social Care Data and Analysis team since September 2020 until October 2021.
+     \\item I was responsible for delivering situational reports and statistical support for briefings in collaboration with policy colleagues and the Test and Trace programme. I contributed to the quality assurance of analyses across the team and promoted data science using R programming language.
      \\item Examples of my work:
      \\begin{itemize}
      \\item automated reporting in R for flu immunisation status of residents and staff at care homes in England

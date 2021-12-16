@@ -1,10 +1,10 @@
 # Community ---------------------------------------------------------------
 community <- tribble(
      ~ role, ~ activity, ~ location, ~ dates, ~ details,
-     "Co-organiser", "Leeds R Meetups", "Leeds, England", "2019 - Present", 
+     "Co-organiser", "Leeds R Meetups", "Leeds, England", "2019 - 2021", 
      "As an R enthusiast, I have been involved in organising the R meetups in Leeds",
      
-     "Co-organiser", "Leeds R Meetups", "Leeds, England", "2019 - Present", 
+     "Co-organiser", "Leeds R Meetups", "Leeds, England", "2019 - 2021", 
      "https://cli.re/E59kPe",
      
      "Organiser", "Leeds Beckett R Meetups", "Leeds, England", "2018", 

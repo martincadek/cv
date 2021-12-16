@@ -11,7 +11,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 005999
-aboutme: "I am a goal-oriented and ambitious statistics specialist and a skilled R user with a quantitative social psychology background. I have an excellent working knowledge of regression modelling, clustering techniques, survey development, and applied research with health data."
+aboutme: "I am on the journey towards a career in data science, analytics, and statistics. I am looking for the best place to apply my knowledge from my degree in psychology and doctorate that focused on health communication, public health, and behaviour science. I enjoy the process of scientific inquiry and solving challenging problems. I am constantly learning and thrive in a challenging but supportive environment."
 output: vitae::awesomecv
 ---
 
