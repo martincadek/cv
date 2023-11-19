@@ -4,16 +4,45 @@ experience <- tribble(
         # Latex itemize https://stackoverflow.com/questions/62514270/modifying-cv-generated-by-vitae-package-r (question I have asked)
         # https://www.latex-tutorial.com/tutorials/lists/
 
-     # Kantar
-     "Data Scientist", "Kantar", "London, England", "2021 - ongoing", 
+     # Roche
+     "Data Scientist", "Roche", "Welwyn Garden City, England", "2023 - ongoing", 
      # The first \\item seems assumed
      # Then it needs to be reintroduced
-     "Working as part of the Expert Solutions team with clients in the FMCG sector.
+     "I am currently working as part of the Pharmaceutical Research and Early Development organization (pRED) as a Data Scientist:
      \\begin{itemize}
-     \\item learning and developing further as a data scientist, gaining industry experience, getting excited about new challenges
-     \\item working with structured, untidy, and large data
-     \\item developing bespoke solutions for clients, such as market structures through the use of hierarchical clustering algorithms
-     \\item using other tools such as Git, AzureDevOps, SQL
+     \\item Providing analytical and programming expertise andleadership support for the reporting and analysis of clinical trials and related submissions to Health Authorities worldwide.
+     \\item Writing reusable functions and packages in R.
+     \\item Transforming, organizing and analyzing healthcare data.
+     \\item Contributing to open source software development.
+     \\item Using R, SAS, Git.
+     \\end{itemize}",
+
+
+     # Vodafone
+     "Quantitative User Researcher", "Vodafone", "London, England", "2022 - 2023", 
+     # The first \\item seems assumed
+     # Then it needs to be reintroduced
+     "In my role, I was combining statistical modelling techniques with focus on user behaviour (UX) as a Quantitative Researcher:
+     \\begin{itemize}
+     \\item Developing business-wide metrics to measure user experience across key digital journeys. This is done using my knowledge of psychometric testing, validity, and reliability.
+     \\item Establishing methodologies to support quantitative UX research internally and helping to standardise our approach to user experience measurement. Focusing on developing methods to reproducible survey analysis using Python and R.
+     \\item Collaborating with designers, product owners, data scientists, researchers, and other stakeholders to develop user-centered products.
+     \\item Development of internal R package and Python library to streamline reproducible research, documentation on AzureDevOps repositories, and maintenance of repositories for analytical work in the team.
+     \\item Development of reproducible pipelines using Python digesting data from APIs and plotting the results in Dashboard environment.
+     \\item Using R, Python, Git, Azure DevOps.
+     \\end{itemize}",
+
+     # Kantar
+     "Data Scientist", "Kantar", "London, England", "2021 - 2022", 
+     # The first \\item seems assumed
+     # Then it needs to be reintroduced
+     "I was working as part of the Expert Solutions team with clients in the fast-moving consumer goods sector. Here were some of the things I did:
+     \\begin{itemize}
+     \\item developed as a data scientist, gained industry experience and tackled exciting new challenges
+     \\item worked with structured, untidy, and large data
+     \\item developed bespoke solutions for clients, using techniques such as hierarchical clustering algorithms, k-means, or latent class analysis
+     \\item provided solutions such as customer segmentations, market penetration analyses, and market structure
+     \\item worked with tools such as Git, Azure DevOps, SQL, R, and SAS
      \\end{itemize}",
      
      # DHSC

@@ -1,34 +1,43 @@
 ---
 name: Martin
 surname: Čadek
-position: ""
+position: "Data Scientist"
 address: ""
-phone: +44 07715 208 734
-www: martincadek.com
+www: www.martincadek.com
 email: "cadekmail@gmail.com"
-twitter: m_cadek
 github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 005999
-aboutme: "I am on the journey towards a career in data science, analytics, and statistics. I am looking for the best place to apply my knowledge from my degree in psychology and doctorate that focused on health communication, public health, and behaviour science. I enjoy the process of scientific inquiry and solving challenging problems. I am constantly learning and thrive in a challenging but supportive environment."
-output: vitae::awesomecv
+headcolor: 414141
+aboutme: "Data scientist passionate about healthcare, and former researcher with doctorate degree (PhD) in psychology which focused on health communication, public health, and obesity interventions. User of data analytics software and programming languages suitable for providing analytical and statistical solutions such as R, Python, and SAS. Advocate of reproducible research with the use of version control (git, docker, makefiles), reproducible reports (shiny, markdown)."
+output: 
+     vitae::awesomecv:
+          page_total: true
 ---
 
-```{r setup, include=FALSE}
+
+```{r setup_vitae, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae) # https://pkg.mitchelloharawild.com/vitae/
+options(tinytex.verbose = TRUE)
+library(vitae) 
+# https://pkg.mitchelloharawild.com/vitae/
+# https://github.com/tallguyjenks/CV (inspired by)
+# http://chrisumphlett.com/posts/vitae-package/ (inspired by)
+# Additional R Packages:
 library(tibble)
 library(dplyr)
 library(tinytex)
 library(glue)
 library(here)
+```
+
+
+```{r setup_others, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 source(file = here("data/experience.R")) # R file with experiences section
 source(file = here("data/courses.R")) # R file with courses section
 source(file = here("data/community.R")) # R file with community section
 source(file = here("data/education.R")) # R file with education section
-# https://github.com/tallguyjenks/CV (inspired by)
-# http://chrisumphlett.com/posts/vitae-package/ (inspired by)
 ```
 
 # Skills
