@@ -44,15 +44,19 @@ source(file = here("data/education.R")) # R file with education section
 
 ## Data Science
 
--   Exploratory data analysis, machine learning and regression analysis {caret, tidymodels, car, lme4}, data wrangling {tidyverse, data.table}, dashboard development {shiny}, data visualization {ggplot2, plotly}, classification {tidymodels}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {rmarkdown, renv, virtual environments}
+-   Exploratory data analysis, machine learning and regression analysis {tidymodels, car, lme4}, data wrangling {tidyverse, data.table}, dashboard development {shiny}, data visualization {ggplot2, plotly}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {rmarkdown, renv, venv, miniconda}
 
 ## Applications
 
--   RStudio, Visual Studio Code, SPSS, Tableau, Excel, Qualtrics
+-   RStudio, VS Code, SAS, Tableau, Excel, Qualtrics
 
 ## Languages
 
--   R {ggplot2, Shiny, data.table, tidyverse, tidymodels, quanteda, tidytext, caret, car}, SQL {Postgre}, Git {GitHub, GitLab}, Python {pandas}, RMarkdown, latex, CSS
+- R {ggplot2, Shiny, data.table, tidyverse, tidymodels, quanteda, tidytext}
+- Python {pandas, scikit-learn}
+- SQL {Postgre}
+- Git {GitHub, GitLab}
+- SAS
 
 # Experience
 

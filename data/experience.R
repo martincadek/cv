@@ -10,7 +10,7 @@ experience <- tribble(
      # Then it needs to be reintroduced
      "I am currently working as part of the Pharmaceutical Research and Early Development organization (pRED) as a Data Scientist:
      \\begin{itemize}
-     \\item Providing analytical and programming expertise andleadership support for the reporting and analysis of clinical trials and related submissions to Health Authorities worldwide.
+     \\item Providing analytical and programming expertise and leadership support for the reporting and analysis of clinical trials and related submissions to Health Authorities worldwide.
      \\item Writing reusable functions and packages in R.
      \\item Transforming, organizing and analyzing healthcare data.
      \\item Contributing to open source software development.
