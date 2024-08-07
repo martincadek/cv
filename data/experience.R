@@ -8,13 +8,13 @@ experience <- tribble(
      "Data Scientist", "Roche", "Welwyn Garden City, England", "2023 - ongoing", 
      # The first \\item seems assumed
      # Then it needs to be reintroduced
-     "I am currently working as part of the Pharmaceutical Research and Early Development organization (pRED) as a Data Scientist:
+     "My responsibilities as a Data Scientist in Pharmaceutical Research and Early Development (pRED) include:
      \\begin{itemize}
-     \\item Providing analytical and programming expertise and leadership support for the reporting and analysis of clinical trials and related submissions to Health Authorities worldwide.
-     \\item Writing reusable functions and packages in R.
-     \\item Transforming, organizing and analyzing healthcare data.
-     \\item Contributing to open source software development.
-     \\item Using R, SAS, Git.
+     \\item Leading statistics and programming activities for Phase 1 studies in the cardiovascular and metabolism disease areas
+     \\item Transforming, organising, and analysing data from clinical studies, and producing tables, listings, and graphs to inform key decision-making activities across Phase 1 and 2 clinical trials in various disease areas
+     \\item Contributing to open-source software and package development as part of the NEST project
+     \\item Developing strategies towards classical and generative AI in Data and Statistical Sciences at Roche as part of DSS AI Team
+     \\item Providing expertise in R programming language, advanced visualisations, Git, and package development
      \\end{itemize}",
 
 
