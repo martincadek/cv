@@ -9,7 +9,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 414141
-aboutme: "Data scientist passionate about healthcare, and former researcher with doctorate degree (PhD) in psychology which focused on health communication, public health, and obesity interventions. User of data analytics software and programming languages suitable for providing analytical and statistical solutions such as R, Python, and SAS. Advocate of reproducible research with the use of version control (git, docker, makefiles), reproducible reports (shiny, markdown)."
+aboutme: "I hold a PhD with a focus on health communication, public health, and obesity interventions, and I am currently employed as a Data Scientist at Roche. My expertise lies in delivering reproducible analytical and statistical solutions using R, Python, and SAS. I am passionate about reproducible research, open-source projects, and work with social impact."
 output: 
      vitae::awesomecv:
           page_total: true
