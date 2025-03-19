@@ -1,6 +1,5 @@
 # renv libraries
 library(httpgd)
-library(languageserver)
 library(vitae) 
 # https://pkg.mitchelloharawild.com/vitae/
 # https://github.com/tallguyjenks/CV (inspired by)
@@ -13,3 +12,4 @@ library(glue)
 library(here)
 library(tidyverse)
 library(rmarkdown)
+library(renv)

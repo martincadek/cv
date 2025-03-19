@@ -9,3 +9,7 @@ if(!requireNamespace("renv", quietly = TRUE)) {
   install.packages("renv")
 }
 
+# VS Code
+rmarkdown::render('/Users/cadekm/Wdir/Projects_Git/cv/cadek_cv/cadek_cv.Rmd')
+
+Sys.getenv("RSTUDIO_PANDOC")
