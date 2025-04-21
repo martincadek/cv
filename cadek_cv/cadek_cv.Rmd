@@ -1,15 +1,15 @@
 ---
 name: Martin
 surname: Čadek
-position: "Data Scientist"
+position: "Data Scientist | PhD"
 address: ""
-www: www.martincadek.com
+# www: www.martincadek.com
 email: "cadekmail@gmail.com"
 github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 414141
-aboutme: "I hold a PhD with a focus on health communication, public health, and obesity interventions, and I am currently employed as a Data Scientist at Roche. My expertise lies in delivering reproducible analytical and statistical solutions using R, Python, and SAS. I am passionate about reproducible research, open-source projects, and work with social impact."
+aboutme: "I hold a PhD specialising in health communication, public health, and obesity interventions. Currently, I am employed as an Analytical Data Scientist at Roche, where I specialise in delivering reproducible analytical and statistical solutions for Phase I and II clinical trials using R, Python, and SAS. I have over 5 years of experience in data sciences, and I am passionate about reproducible research, open-source projects, and socially impactful work."
 output: 
      vitae::awesomecv:
           page_total: true
@@ -40,25 +40,16 @@ source(file = here("data/experience.R")) # R file with experiences section
 source(file = here("data/courses.R")) # R file with courses section
 source(file = here("data/community.R")) # R file with community section
 source(file = here("data/education.R")) # R file with education section
+source(file = here("data/skills.R")) # R file with skills section
 ```
 
 # Skills
 
-## Data Science
+```{r skills}
+skills %>% 
+  detailed_entries(category, activity, location, dates, details)
+```
 
--   Exploratory data analysis, machine learning and regression analysis {tidymodels, car, lme4}, data wrangling {tidyverse, data.table}, dashboard development {shiny}, data visualization {ggplot2, plotly}, computerised text mining {quanteda, tidytext}, continuous deployment {netlify}, reproducibility {rmarkdown, renv, venv, miniconda}
-
-## Applications
-
--   RStudio, VS Code, SAS, Tableau, Excel, Qualtrics
-
-## Languages
-
-- R {ggplot2, Shiny, data.table, tidyverse, tidymodels, quanteda, tidytext}
-- Python {pandas, scikit-learn}
-- SQL {Postgre}
-- Git {GitHub, GitLab}
-- SAS
 
 # Experience
 
@@ -69,16 +60,16 @@ experience %>%
      detailed_entries(role, dates, company, location, details, .protect = FALSE)
 ```
 
-# Courses
+<!-- # Courses -->
 
-```{r courses}
+```{r courses, echo=FALSE, results='hide', message=FALSE}
 courses %>% 
   detailed_entries(organisation, dates, category, location, description)
 ```
 
-# Community
+<!-- # Community -->
 
-```{r community}
+```{r community, echo=FALSE, results='hide', message=FALSE}
 community %>%
   detailed_entries(role, dates, activity, location, details)
 ```
