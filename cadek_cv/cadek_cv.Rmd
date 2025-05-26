@@ -9,7 +9,7 @@ github: ""
 linkedin: martincadek
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 414141
-aboutme: "I hold a PhD specialising in health communication, public health, and obesity interventions. Currently, I am employed as an Analytical Data Scientist at Roche, where I specialise in delivering reproducible analytical and statistical solutions for Phase I and II clinical trials using R, Python, and SAS. I have over 5 years of experience in data sciences, and I am passionate about reproducible research, open-source projects, and socially impactful work."
+aboutme: "I hold a PhD specialising in health communication, public health, and obesity interventions. Currently, I am employed as an Data Scientist at Roche, where I specialise in delivering reproducible analytical and statistical solutions for Phase I and II clinical trials using R, Python, and SAS. I have over 5 years of experience in data sciences, and I am passionate about reproducible research, open-source projects, and socially impactful work."
 output: 
      vitae::awesomecv:
           page_total: true
