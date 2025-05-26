@@ -11,7 +11,7 @@ experience <- tribble(
      # Multiple items \\begin{itemize} and \\end{itemize}
      "Led statistical analysis and exploratory data analysis for Phase I GYM329 (Cardiovascular and Metabolic Disease) study, successfully supporting a data memo.
      \\item Leading statistical programming activities for Phase II GYM329 (Cardiovascular and Metabolic Disease) study, utilising complex trial design and mixed-method modelling to assess efficacy of Tirzepatide combined treatment for obesity, including co-leading standardisation of outputs, datasets, and programmes in DXA and fMRI scans, and biomarkers.
-     \\item Member of the DSS AI Team, leading workshops to improve adoption of generative AI tools, supporting AI strategy development, and organising a GitHub Copilot hackathon with future sessions planned for South San Francisco, Welwyn, and Basel.
+     \\item Member of the DSS AI Team, leading workshops to enhance the adoption of generative AI tools, supporting AI strategy development, and organising workshops to utilise coding assistants across all sites (e.g., South San Francisco, Welwyn, and Basel).
      \\item Supporting the development of internal tools and packages in R and Shiny, such as NEST and internal Shiny dashboards.
      \\item Over 5 years of experience in data sciences with expertise in R programming, advanced visualisations, statistical modelling, Git, and package development.",
 
