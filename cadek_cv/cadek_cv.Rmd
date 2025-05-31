@@ -43,13 +43,6 @@ source(file = here("data/education.R")) # R file with education section
 source(file = here("data/skills.R")) # R file with skills section
 ```
 
-# Skills
-
-```{r skills}
-skills %>% 
-  detailed_entries(category, activity, location, dates, details)
-```
-
 
 # Experience
 
@@ -72,6 +65,13 @@ courses %>%
 ```{r community, echo=FALSE, results='hide', message=FALSE}
 community %>%
   detailed_entries(role, dates, activity, location, details)
+```
+
+# Skills
+
+```{r skills}
+skills %>% 
+  detailed_entries(category, activity, location, dates, details)
 ```
 
 # Education
