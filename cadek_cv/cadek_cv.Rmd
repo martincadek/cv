@@ -3,7 +3,7 @@ name: Martin
 surname: Čadek
 position: "Data Scientist | PhD"
 address: ""
-# www: www.martincadek.com
+www: www.martincadek.com
 email: "cadekmail@gmail.com"
 github: ""
 linkedin: martincadek
