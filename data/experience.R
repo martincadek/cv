@@ -9,12 +9,11 @@ experience <- tribble(
      # The first \\item seems assumed
      # Then it needs to be reintroduced
      # Multiple items \\begin{itemize} and \\end{itemize}
-     "My responsibilities as a Data Scientist in Pharmaceutical Research and Early Development (pRED) include:
-     \\item Leading statistics and programming activities for Phase 1 and 2 clinical studies in the cardiovascular and metabolism disease areas (CVRM).
-     \\item Transforming, organising, and analysing data from clinical studies, and producing tables, listings, and graphs to inform key decision-making across Phase 1 and 2 clinical trials 
-     \\item Developing strategies for classical and generative AI in Data and Statistical Sciences at Roche as part of the DSS AI Team
-     \\item Assisting the Roche community with the adoption of new programming tools, such as GitHub Copilot and LLM chatbots, including providing training and governance support
-     \\item Supporting the development of internal tools and packages in R and Shiny 
+     "Leading statistics and programming activities for Phase 1 and 2 clinical studies in the cardiovascular and metabolism disease areas (CVRM).
+     \\item Transforming, organising, and analysing data from clinical studies, and producing tables, listings, and graphs to inform key decision-making across Phase 1 and 2 clinical trials.
+     \\item Developing strategies for classical and generative AI in Data and Statistical Sciences at Roche as part of the DSS AI Team.
+     \\item Assisting the Roche community with the adoption of new programming tools, such as GitHub Copilot and LLM chatbots, including providing training and governance support.
+     \\item Supporting the development of internal tools and packages in R and Shiny.
      \\item Over 5 years of experience in data sciences with expertise in the R programming language, statistics, advanced visualisations, Git, and package development",
 
      # Vodafone
