@@ -9,13 +9,12 @@ experience <- tribble(
      # The first \\item seems assumed
      # Then it needs to be reintroduced
      # Multiple items \\begin{itemize} and \\end{itemize}
-     "Leading statistics and programming activities for Phase 1 and 2 clinical studies in the cardiovascular and metabolism disease areas (CVRM).
-     \\item Transforming, organising, and analysing data from clinical studies, and producing tables, listings, and graphs to inform key decision-making across Phase 1 and 2 clinical trials.
-     \\item Developing strategies for classical and generative AI in Data and Statistical Sciences at Roche as part of the DSS AI Team.
-     \\item Assisting the Roche community with the adoption of new programming tools, such as GitHub Copilot and LLM chatbots, including providing training and governance support.
-     \\item Supporting the development of internal tools and packages in R and Shiny.
-     \\item Over 5 years of experience in data sciences with expertise in the R programming language, statistics, advanced visualisations, Git, and package development",
-
+     "Providing end-to-end data science orchestration for Phase 1 and 2 clinical trials in Cardiovascular and Metabolism Disease Areas (CVRM), leveraging GitLab CI/CD, Snakemake, and modular pipelines to enable efficient data transformation, analysis, and visualisation.
+     \\item Leading data science study activities and managing a small team of data scientists to effectively deliver key reporting activities for clinical studies.
+     \\item Authoring, reviewing, and planning analysis specification documents used to produce key statistical outputs for stakeholders, such as clinical scientists, to inform study decision-making.
+     \\item Developing and executing strategic initiatives for classical and generative AI integration within Data and Statistical Sciences at Roche, driving innovation as a member of the AI Team.
+     \\item Facilitating the adoption of next-generation programming tools across Roche by delivering targeted training and workshops, providing governance, and supporting the seamless integration of solutions such as GitHub Copilot and large language model (LLM) chatbots.
+     \\item Bringing over five years of specialised data science experience, with deep expertise in R programming, advanced statistics, impactful visualisations, Git-based workflows, and package development.",
      # Vodafone
      "Quantitative User Researcher", "Vodafone", "London, England", "2022 - 2023", 
      # The first \\item seems assumed
