@@ -9,7 +9,7 @@ experience <- tribble(
      # The first \\item seems assumed
      # Then it needs to be reintroduced
      # Multiple items \\begin{itemize} and \\end{itemize}
-     "Providing end-to-end data science orchestration for Phase 1 and 2 clinical trials in Cardiovascular and Metabolism Disease Areas (CVRM), leveraging GitLab CI/CD, Snakemake, and modular pipelines to enable efficient data transformation, analysis, and visualisation.
+     "Providing end-to-end data science support for Phase 1 and 2 clinical trials in Cardiovascular and Metabolism Disease Areas (CVRM), leveraging GitLab CI/CD, Snakemake, and modular pipelines to enable efficient data transformation, analysis, and visualisation.
      \\item Leading data science study activities and managing a small team of data scientists to effectively deliver key reporting activities for clinical studies.
      \\item Authoring, reviewing, and planning analysis specification documents used to produce key statistical outputs for stakeholders, such as clinical scientists, to inform study decision-making.
      \\item Developing and executing strategic initiatives for classical and generative AI integration within Data and Statistical Sciences at Roche, driving innovation as a member of the AI Team.
